@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "stm32_lock.h": "c"
+    },
+    "cmsis-csolution.actions": [
+        {
+            "path": "bldc_fan_ctrl.csolution.yml",
+            "target": "STM32G070KBTx",
+            "config": {
+                "debug": "Arm Debugger"
+            }
+        }
+    ]
+}
