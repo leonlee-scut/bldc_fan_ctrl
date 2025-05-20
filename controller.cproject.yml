@@ -14,3 +14,11 @@ project:
     - group: thread_safe
       files:
         - file: ./STM32CubeMX/STM32G070KBTx/STM32CubeMX/MDK-ARM/armlib_lock_glue.c
+  
+  misc:
+    - Link:
+      - --map
+
+  # output:
+  #   type: 
+  #     - map

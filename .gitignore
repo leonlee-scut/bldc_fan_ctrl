@@ -57,6 +57,10 @@ dkms.conf
 # uv2csolution
 uv2csolution.log
 *.uvguix.*
+*.uvgui.*
+*.uvpdbgx
+*.uvoptx
+DebugConfig/
 
 # Csolution Output Files
 tmp
@@ -68,6 +72,8 @@ out
 *.cbuild-run.yml
 *.cgen.yml
 project.script
+*.ini
+
 
 # uvision build
 MDK_Make
