@@ -49,6 +49,7 @@
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 /* USER CODE BEGIN PFP */
+extern int app_main(void);
 
 /* USER CODE END PFP */
 
@@ -86,7 +87,9 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  
   /* USER CODE BEGIN 2 */
+  app_main(); // Call the main function of the application
 
   /* USER CODE END 2 */
 
